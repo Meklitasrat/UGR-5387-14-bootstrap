@@ -3,100 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificate</title>
+    <title>Home</title>
+    <script src="dist/javascript/bootstrap.bundle.min.js"> </script>
+    <link rel="stylesheet" href="dist/css/main.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
   <body>
-    <header class="menu"> 
-        <h1 >My Certificate</h1>
-        <nav>
+    <header class="menu navbar navbar-expand-sm bg-success  bg-gradient  shadow-lg "> 
+        <diV><h1 class="m-3 p-4 font-bold text-3xl font-serif d-md-none d-sm-none text-white shadow-lg  "> <i class="fa fa-check "> Certificate</i> </h1> </diV> 
+        <div class=" navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar"
+        aria-controls="navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+      
+        <span class="navbar-toggler-icon"> </span>
+       
+    </div>
 
-            
-            <ul>
-                <li><a href="home.html"> <i class="fa fa-home "></i> Home</a> </li>
-                <li><a href="hobby.html"> &#9836;Hobbies</a> </li>
-                <li> <a href="certificate.html"><i class="fa fa-check "></i>Certificate</a></li>
-                <li> <a href="Resume.html"> <i class="fa fa-copy "></i>Resume </a></li>
-                <li> <a href="Extracurricular.html"><i class="fa fa-certificate "></i>Extracurricular</a> </li>
+        <nav id="navbar" class=" navbar  navbar-collapse  navbar-expand-sm  justify-content-sm-center ">
+      
+            <ul class="navbar-nav d-flex align-items-center" >
+                <li class="m-sm-3 mb-3"><a href="Home.html" class="fs-4 text-white "> <i class="fa fa-home "> Home</i> </a> </li>
+                <li class="m-sm-3 mb-3"><a href="hobby.html" class="fs-4 text-white"> <i> &#9836; Hobbies</i></a> </li>
+                <li class="m-sm-3 mb-3"> <a href="certificate.html" class="fs-4 text-white"><i class="fa fa-check "> Certificate</i></a></li>
+                <li class="m-sm-3 mb-3"> <a href="Resume.html" class="fs-4 text-white"> <i class="fa fa-copy "> Resume</i> </a></li>
+                <li class="m-sm-3 mb-3"> <a href="Extracurricular.html" class="fs-4 text-white"><i class="fa fa-certificate" > </i> Extracurricular</a> </li>
             </ul>
-            
+
         </nav>
-        
-        <div class="menu-bar-container">
-            <label class="hamburger-menu">
-              <input type="checkbox">
-            </label>
-            <aside class="sidebar">
-              <nav>
-                <ul>
-                    <li><a href="home.html"> <i class="fa fa-home "></i> Home</a> </li>
-                    <li><a href="hobby.html"> &#9836;Hobbies</a> </li>
-                    <li> <a href="certificate.html"><i class="fa fa-check "></i>Certificate</a></li>
-                    <li> <a href="Resume.html"> <i class="fa fa-copy "></i>Resume </a></li>
-                    <li> <a href="Extracurricular.html"><i class="fa fa-certificate "></i>Extracurricular</a> </li>
-                </ul>
-                
-              </nav>
-            </aside>
-          </div>
-        
        </header>
-    <hr>
-    <table>
+       <div class="col-12 ">
+        <h1 class="shadow-lg fw-bold fs-1 bg-black  bg-gradient text-white p-4 text-center rounded-pill mt-5"> <i class="fa fa-check "> Certificate</i></h1>
+      </div>
+
+    <table class="table table-striped border border-3  table-bordered shadow-lg col-6  mx-2 mt-5  ">
         <tr>
-        <th> Organization</th>
-        <th> Certificate </th>
-        <th> Type</th>
+            <th class="text-center h5"> NO. </th>
+        <th class="text-center h4 "> Organization</th>
+        <th class="text-center h4 "> Certificate </th>
+        <th class="text-center h4 "> Type</th>
+       
         </tr>
 
         <tr>
-            <td> <img src="Image/St.George.jpg" alt="st." width="200"> <p>St.Geoge Church </p> </td>
-            <td>
-                <p> For the compleition of Ethiopian Orthodox Oriented Schooling upto level 3</p> </td>
-                <td> <p> Certificate Of compleition</p></td>
+            <td>1. </td>
+            <td> <img src="Image/St.George.jpg" alt="st." class="img-fluid  rounded mx-auto d-block m-5 mx-3  border w-50   "> <p class=" text-center h5 "> St.Geoge Church </p> </td>
+            <td class="align-middle h6 text-success "> <p class="d-flex "> For the compleition of Ethiopian Orthodox Oriented Schooling upto level 3</p> </td>
+            <td class="h5 align-middle text-info "> <p><i class="fa fa-star"> Cerificate of compleition</i> </p></td>
+               
         </tr>
         <tr>
-            <td> <img src="Image/USA.jpg" alt="usa"> <p> American Center at the Ethiopian National Archive Library</p></td>
-            <td> For completing the "HOUR OF CODE" Basics Of Computer Science.</td>
-            <td> Cerificate of compleition</td>
+            <td>2. </td>
+            <td> <img src="Image/USA.jpg" alt="usa" class="img-fluid  rounded mx-auto d-block m-5 mx-3  border w-70  "> <p class="text-center h5 "> American Center at the Ethiopian National Archive Library</p></td>
+            <td class="align-middle h6 text-success " > For completing the "HOUR OF CODE" Basics Of Computer Science.</td>
+            <td class="h5 align-middle text-info "> <i class="fa fa-star"> Cerificate of compleition</i> </td>
+           
         </tr>
         <tr>
-            <td> <img src="Image/Interact.jpg" alt="interact"> <p> Interact Club at LCCS</p></td>
-            <td> <p> For Participating in the club as a memeber and for participating in a planting campaign. </p></td>
-            <td> Certificate of Paticipation</td>
+            <td>3. </td>
+            <td> <img src="Image/Interact.jpg" alt="interact" class="img-fluid  rounded mx-auto d-block m-5 mx-3  border w-70  "> <p class="text-center h5 "> Interact Club at LCCS</p></td>
+            <td class="m-4 align-middle h6 text-success "> <p class="my-auto"> For Participating in the club as a memeber and for participating in a planting campaign. </p></td>
+            <td class="h5 align-middle text-info "> <i class="fa fa-star"> Cerificate of compleition</i> </td>
+           
         </tr>
         <tr>
-            <td> <img src="Image/AA_Admin.jpg" alt="AA_Admin"> <p> Addis Ababa K/K Wordera 7 </p></td>
-            <td>  For Hosting different motived festivals like:
-                 <ul>
-                    <li> Women's Day</li>
-                    <li> Ethiopian People's and Nationalities Day</li>
-                    <li> Grand Ethiopian Renaissance Dam Anniversary  </li>
+            <td> 4.. </td>
+            <td> <img src="Image/AA_Admin.jpg" alt="AA_Admin"  class=" img-fluid  rounded mx-auto d-block m-5 mx-3  border w-50  "> <p class="text-center h5 "> Addis Ababa K/K Wordera 7 </p></td>
+            <td class="align-middle h6 text-success "> <p class=" h5 "> For Hosting different motived festivals like: </p> 
+                <ul class=" ">
+                    <li class=" list-inline Class"> <i class=" fa fa-check">  Women's Day</i></li>
+                    <li class=" list-inline Class"> <i class="fa fa-check"> Ethiopian People's and Nationalities Day</i> </li>
+                    <li class=" list-inline Class"> <i class="fa fa-check"> Grand Ethiopian Renaissance Dam Anniversary </i>  </li>
                  </ul>
                 </td>
-                 <td> Certificate of Participation </td>
+                 <td class="h5 align-middle text-info "> <i class="fa fa-star "> Cerificate of compleition</i>  </td>
         </tr>
         
         
     </table>
     <hr>
-    <footer class="right">
+    <footer class="b  p-4 m-2 rounded container-fluid m-2 mt-5 border border-2 shadow-lg " >
     
-        <h3 > My Contacts </h3>
+        <h3 class=" "> My Contacts </h3>
         
-       <div>
-        <a href="instagram.com"><i class="fa fa-instagram fa-lg"></i></a>  
-        <a href="mailto:meklitzasrat@gmail.com"> &#9993; </a> 
-        <a href="mailto:meklitzasrat@gmail.com"> <i class="fa fa-facebook fa-lg"></i></a> 
-        <a href="https://www.instagram.com/maki_asrat/"> <i class="fa fa-twitter"> </i></a>
-        <a href="https://t.me/DolceFarNeinte"> <i class="fa fa-telegram"> </i></a>
-               
-       
-           <p id="copy"> &copy; copy right is reserved   | Nov, 2023 | protected by law </p>
-       </div>   
+       <div class=" p-5 row ">
+        <div class="col h3"> <a href="instagram.com"><i class="fa fa-instagram fa-lg text-4xl text-orange-900   "></i></a>   </div>
+        <div class="col h3"> <a href="mailto:meklitzasrat@gmail.com" > <i class="fa fa-envelope" > </i> </a>  </div>
+       <div class="col h3">  <a href="mailto:meklitzasrat@gmail.com" > <i class="fa fa-facebook fa-lg text-4xl text-orange-900 m-2 hover:text-grey-700"></i></a> </div>
+        <div class="col h3"> <a href="https://www.instagram.com/maki_asrat/" > <i class="fa fa-twitter text-4xl text-orange-900 m-2 hover:text-grey-700"> </i></a></div>
+        <div class="col h3"> <a href="https://t.me/DolceFarNeinte" > <i class="fa fa-telegram text-4xl text-orange-900 m-2 hover:text-grey-700"> </i></a></div>
+            
+       </div>
+       <p  class=" container-fluid  text-center bg-secondary "> &copy;copy right is reserved   | Nov, 2023 | protected by law </p>   
     
-     </footer>
-
+    
+    
+    
+    
+     </footer> 
 </body>
 </html>
     
